@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chrystal Wang: Final - My Work</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize_v8.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto+Condensed:700i%7CRoboto:500"
+        rel="stylesheet">
+    <style>
+        body {
+            background: #000;
+            color: white;
+        }
+
+        header,
+        article,
+        footer {
+            padding: 1em;
+        }
+
+        #wrapper {
+            width: 100%;
+            max-width: 1170px;
+            min-width: 430px;
+            margin: 0 auto;
+            background-color: rgb(64, 64, 77);
+        }
+
+        /* masthead */
+
+        #masthead {
+            box-sizing: border-box;
+            height: 140px;
+            background-color: rgb(43, 43, 51);
+        }
+
+        #masthead h1 {
+            text-align: center;
+            font-size: 2.5em;
+            text-shadow: 0 0 3px #000;
+            margin: .3em;
+            font-family: 'Arial Narrow', sans-serif;
+        }
+
+        /* nav stuff */
+
+        #nav1 {
+            padding: 1em 0;
+            top: 0;
+            background-color: rgb(22, 20, 26);
+        }
+
+        #nav ul li a {
+            font-size: 1.3em;
+            padding: 1rem;
+        }
+
+        /* article */
+
+        article {
+            background-color: rgb(64, 64, 77);
+            font-size: 1.2em;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(43, 43, 51);
+        }
+
+        div img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* image */
+
+        #flexbox_gallery div {
+            display: block;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        #flexbox_gallery div div {
+            border: 2px solid rgba(0, 0, 0, 0.2);
+            border-radius: 0.5em;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            box-sizing: border-box;
+            margin: 1em 0;
+        }
+
+        /* link colors */
+
+        a:link,
+        a:visited {
+
+            color: #98a7ff;
+        }
+
+        a:hover {
+            color: #b189f1;
+        }
+
+        a:active {
+            color: rgb(158, 85, 255);
+        }
+
+        @media screen and (min-width:815px) {
+            #nav1 ul {
+                display: flex;
+                height: 20px;
+                align-items: center;
+                margin-left: .5em;
+                margin-right: .5em;
+            }
+
+            #masthead h1 {
+                font-size: 3em;
+                margin: .5em;
+            }
+
+            #flexbox_gallery div {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            #flexbox_gallery div div {
+                flex-basis: 32%;
+            }
+        }
+
+        @media screen and (min-width:576px) {}
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="masthead">
+            <h1>Chrystal Wang | Artist | Graphic Design</h1>
+        </header>
+        <nav id="nav1">
+            <ul>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="My_Work.html" class="selected">My Work</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+            </ul>
+        </nav>
+        <section id="flexbox_gallery">
+            <div>
+                <div>
+                    <img src="img/WhatDoICallThis.png" alt="drawing">
+                </div>
+                <div>
+                    <img src="img/warlock.png" alt="drawing">
+                </div>
+                <div>
+                    <img src="img/sokko.png" alt="drawing">
+                </div>
+            </div>
+        </section>
+        <!-- <img src="img/punch.gif" alt="drawing" width="500px"> -->
+
+        <div>
+            <footer>
+                <div>&copy; 2055 Chrystal Wang | Discord: Graveyard#9612 | Email: <a
+                        href="mailto:sapphire5cnw@gmail.com">sapphire5cnw@gmail.com</a></div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+
+</html>

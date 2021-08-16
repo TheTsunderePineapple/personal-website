@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chrystal Wang: Final - About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize_v8.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto+Condensed:700i%7CRoboto:500"
+        rel="stylesheet">
+    <style>
+        body {
+            background: #000;
+            color: white;
+        }
+
+        header,
+        article,
+        footer {
+            padding: 1em;
+        }
+
+        #wrapper {
+            width: 100%;
+            max-width: 1170px;
+            min-width: 430px;
+            margin: 0 auto;
+        }
+
+        /* masthead */
+
+        #masthead {
+            box-sizing: border-box;
+            height: 140px;
+            background-color: rgb(43, 43, 51);
+        }
+
+        #masthead h1 {
+            text-align: center;
+            font-size: 2.5em;
+            text-shadow: 0 0 3px #000;
+            margin: .3em;
+            font-family: 'Arial Narrow', sans-serif;
+        }
+
+        /* nav stuff */
+
+        #nav1 {
+            padding: 1em 0;
+            top: 0;
+            background-color: rgb(22, 20, 26);
+        }
+
+        #nav ul li a {
+            font-size: 1.3em;
+            padding: 1rem;
+        }
+
+        /* article */
+
+        article {
+            background-color: rgb(64, 64, 77);
+            font-size: 1.5em;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(43, 43, 51);
+        }
+
+        /* link colors */
+
+        a:link,
+        a:visited {
+
+            color: #98a7ff;
+        }
+
+        a:hover {
+            color: #b189f1;
+        }
+
+        a:active {
+            color: rgb(158, 85, 255);
+        }
+
+        img{
+            max-width: 100%;
+            height: auto;
+            margin-top: 1.3em;
+        }
+        @media screen and (min-width:815px) {
+            #masthead h1 {
+                font-size: 3em;
+                margin: .5em;
+            }
+        }
+
+        @media screen and (min-width:885px) {
+
+            #nav1 ul {
+                display: flex;
+                height: 20px;
+                align-items: center;
+                margin-left: .5em;
+                margin-right: .5em;
+            }
+
+            #maincontent {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            #col1 {
+                flex-basis: 39%;
+            }
+
+            #col2 {
+                flex-basis: 55%;
+                margin-left: 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="masthead">
+            <h1>Chrystal Wang | Artist | Graphic Design</h1>
+        </header>
+        <nav id="nav1">
+            <ul>
+                <li><a href="About.html" class="selected">About Me</a></li>
+                <li><a href="My_Work.html">My Work</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+            </ul>
+        </nav>
+        <div>
+            <article id="maincontent">
+                <div id="col1">
+                    <img src="img/me.jpg" alt="My Face">
+                </div>
+                <div id="col2">
+                    <p>
+                        Hello! My name is Chrystal, and I'm an illustrator/artist! I've always enjoyed doing art, even
+                        taking college digital art classes over the summer for fun, and I've spent a lot of time using
+                        Adobe
+                        Photoshop and Animate for projects. I and also enjoy reading a lot. In my spare time I also like
+                        playing or watching games, such as Pokemon, Genshin Impact, Destiny 2, and Minecraft.
+                    </p>
+                    <br>
+                    <p>
+                        Check out my work <a href="My_Work.html">here</a>, or click "My Work" on the nav bar. If you
+                        like it, then feel free to contact me. I am currently accepting commisions for drawings and
+                        short animations.
+                    </p>
+                </div>
+                <!-- talk about some things youve done recently  -->
+            </article>
+        </div>
+
+        <div>
+            <footer>
+                <div>&copy; 2021 Chrystal Wang | Discord: Graveyard#9612 | Email: <a
+                        href="mailto:sapphire5cnw@gmail.com">sapphire5cnw@gmail.com</a></div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+
+</html>
